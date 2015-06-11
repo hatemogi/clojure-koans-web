@@ -11,7 +11,7 @@
    [:li.en
     [:a {:href "#"} "1. Install Java"]]
    [:li.ko
-    [:a {:href "#"} "2. 선문답 설치"]]
+    [:a {:href "#"} "2. 선문답 설치하기"]]
    [:li.en
     [:a {:href "#"} "2. Install the Koans"]]
    [:li.ko
@@ -33,9 +33,16 @@
    [:li.ko
     [:a {:href "#"} "감사의 말"]]
    [:li.en
-    [:a {:href "#"} "Thanks"]]]]
+    [:a {:href "#"} "Thanks"]]
+   [:li.ko
+    [:a {:href "#"} "역자의 말"]]]]
 
  [:div#inner-wrapper
+  [:p
+   [:input {:type "radio" :name "lang" :value "ko" :checked true} "한국어"]
+   " "
+   [:input {:type "radio" :name "lang" :value "en"} "English"]]
+
   [:div#one.section
 
    [:h1.ko "서론"]
@@ -69,7 +76,8 @@
     ", and Linux users should use their package manager of choice. Apple distributes Java 6 with their system update tool."]
    [:p.ko "필요하다면 자바를 설치한 뒤, 콘솔(터미널)을 열어 아래 명령어를 입력합니다:"]
    [:p.en "After downloading Java (if necessary), go to your console and enter:"]
-   [:div.terminal "~ $ java -version"]
+   [:div.terminal.ko "~ $ java -version"]
+   [:div.terminal.en "~ $ java -version"]
    [:p.ko "버전 1.5 이상이 설치돼 있어야 합니다."]
    [:p.en "Make sure the version installed is 1.5 or greater."]]
 
@@ -90,7 +98,7 @@
     [:a {:href "http://leiningen.org/#install"} "installation instructions"]
     " for Leiningen bliss. "]
 
-   [:p.en "중요: 이미 lein 1.x가 설치돼 있다면 "
+   [:p.ko "중요: 이미 lein 1.x가 설치돼 있다면 "
     [:a {:href "https://github.com/technomancy/leiningen/wiki/Upgrading"} "라이닝엔 2로"]
     "업그레이드 합니다."]
    [:p.en "Important: if you already have lein 1.x installed, you'll need to "
@@ -219,7 +227,7 @@
     " and powered by "
     [:a {:href "http://www.joodoweb.com"} "Joodo"]
     "."]]
-  [:div#tenth.section.ko
+  [:div#ten.section.ko
    [:h1 "역자의 말"]
    [:p "이 사이트는 "
     [:a {:href "http://hatemogi.com"} "김대현"] "이 한글로 번역했고, 원문 웹사이트는 "
@@ -228,6 +236,6 @@
    [:p "번역에 관한 문의나 제안은 "
     [:a {:href "https://github.com/hatemogi/clojure-koans/issues"} "이슈로 남겨"]
     "주시거나, "
-    [:a {:href "https://github.com/hatemogi/clojure-koans/pulls"} "풀리퀘스트"]
-    "를 보내주세요"]]
+    [:a {:href "https://github.com/hatemogi/clojure-koans/pulls"} "풀리퀘스트를 보내"]
+    "주세요."]]
 [:div.clearfix]]]
