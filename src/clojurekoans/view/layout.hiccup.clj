@@ -1,8 +1,8 @@
 (doctype :html5)
 [:html
  [:head
-  [:meta {:http-equiv "Content-Type" :content "text/html" :charset "iso-8859-1"}]
-  [:title "Clojure Koans"]
+  [:meta {:http-equiv "Content-Type" :content "text/html" :charset "utf-8"}]
+  [:title "클로저 선문답"]
 
   (include-css "/stylesheets/style.css")
   "<!--[if IE]>"

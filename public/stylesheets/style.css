@@ -53,7 +53,7 @@ html, body {
   background-attachment: fixed;
   font-size: 16px;
 	color: #2a1807;
-  font-family: 'Optima', Arial, sans-serif;
+  font-family: 'Optima', 'GungSeo', Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -67,14 +67,14 @@ ul {
 
 h1 {
   font-size: 2.3125em;
-  font-family: 'Optima', Arial, sans-serif;
+  font-family: 'Optima', 'NanumMyeongjo', Arial, sans-serif;
   font-weight: lighter;
   margin: 0;
   text-shadow: 0px -1px 1px #f3f3f3;
 }
 
 p {
-  font-family: Rosarivo, Arial, Sans-serif;
+  font-family: Rosarivo, 'GungSeo', Arial, Sans-serif;
 	font-size: 1em;
   line-height: 1.75em;
   padding: 0;
@@ -156,7 +156,7 @@ a:hover {
 	color: #2a1807;
   display: block;
   font-weight: normal;
-  font-family: Rosarivo, Arial, Sans-serif;
+  font-family: Rosarivo, 'GungSeo', Arial, Sans-serif;
   padding: .42em;
   border-bottom: 1px dashed #e0d5c7;
 }
@@ -243,4 +243,8 @@ a:hover {
 #nine {
   background-image: url('../images/bulls/bull8.png');
   background-position: 100% 68%;
+}
+
+.en {
+  display: none;
 }
