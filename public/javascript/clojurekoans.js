@@ -12,6 +12,9 @@ $(document).ready(function() {
 
 $(function() {
     $(":radio").click(function() {
-        $(".ko, .en").toggle();
+        var v = this.value;
+        ["ko", "en"].forEach(function(lang) {
+            $("." + lang)[lang == v ? "show" : "hide"]();
+        });
     });
-})
+});

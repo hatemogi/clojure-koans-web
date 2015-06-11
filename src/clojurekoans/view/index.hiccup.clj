@@ -39,9 +39,9 @@
 
  [:div#inner-wrapper
   [:p
-   [:input {:type "radio" :name "lang" :value "ko" :checked true} "한국어"]
+   [:input {:type "radio" :name "lang" :value "ko" :checked true :accesskey "k"} "한국어"]
    " "
-   [:input {:type "radio" :name "lang" :value "en"} "English"]]
+   [:input {:type "radio" :name "lang" :value "en" :accesskey "e"} "English"]]
 
   [:div#one.section
 
