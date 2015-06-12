@@ -53,7 +53,7 @@ html, body {
   background-attachment: fixed;
   font-size: 16px;
 	color: #2a1807;
-  font-family: 'Optima', 'GungSeo', Arial, sans-serif;
+  font-family: 'Optima', 'GungSeo', 'Gungsuh', Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -74,7 +74,7 @@ h1 {
 }
 
 p {
-  font-family: Rosarivo, 'GungSeo', Arial, Sans-serif;
+  font-family: Rosarivo, 'GungSeo', 'Gungsuh', Arial, Sans-serif;
 	font-size: 1em;
   line-height: 1.75em;
   padding: 0;
@@ -156,7 +156,7 @@ a:hover {
 	color: #2a1807;
   display: block;
   font-weight: normal;
-  font-family: Rosarivo, 'GungSeo', Arial, Sans-serif;
+  font-family: Rosarivo, 'GungSeo', 'Gungsuh', Arial, Sans-serif;
   padding: .42em;
   border-bottom: 1px dashed #e0d5c7;
 }
