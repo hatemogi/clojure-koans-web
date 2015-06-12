@@ -1,0 +1,250 @@
+/* Clojure Koans Site by 8th Light
+ *
+ * Scale 16 - 21, 28, 37, 50, 67, 89, 119, 159
+1
+1.3125
+1.75
+2.3125
+ * 265px Navigation/Left Banner, 629px Main text column, 35px Gutters
+ * 35+265+35+629+35 = 999px wide
+ *
+ *
+ * =G Globals
+ * =N Navigation
+ * =L Layout
+ * =MC Main Content
+ *
+ *
+ * Color Index
+ * #e2dcd4 - Body Background Beige - to avoid white flicker prior to paper.jpg load
+ * #afb59b - 'Stripe' Navigation Banner Background Green - again to avoid flickr before image load
+ * #990000 - Link hover red (non-navigation links)
+ *
+ *
+ *
+ */
+
+
+
+/* Optima Body Font load */
+@import url(http://fonts.googleapis.com/css?family=Rosarivo);
+@font-face {
+    font-family: 'Optima';
+    src: url('optima-webfont.eot');
+    src: url('optima-webfont.eot?#iefix') format('embedded-opentype'),
+         url('optima-webfont.woff') format('woff'),
+         url('optima-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ---------------------- */
+
+
+
+
+/* ###### GLOBALS ###### */
+/* =G */
+
+html, body {
+  background-color: #e2dcd4;
+  background: url('../images/paper.jpg');
+  background-attachment: fixed;
+  font-size: 16px;
+	color: #2a1807;
+  font-family: 'Optima', 'GungSeo', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+h1 {
+  font-size: 2.3125em;
+  font-family: 'Optima', 'NanumMyeongjo', Arial, sans-serif;
+  font-weight: lighter;
+  margin: 0;
+  text-shadow: 0px -1px 1px #f3f3f3;
+}
+
+p {
+  font-family: Rosarivo, 'GungSeo', Arial, Sans-serif;
+	font-size: 1em;
+  line-height: 1.75em;
+  padding: 0;
+}
+
+a {
+  color: #b04d22;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+	color: #e95d3d;
+}
+
+
+/* ------------------------- */
+
+
+
+/* ######## LAYOUT ########### */
+/* =L */
+
+/* Main Body */
+#outer-wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 999px; /* Main site width */
+  position: relative;
+}
+
+.rounded_top {
+  height: 10px;
+  width: 100%;
+}
+
+/* Body Text Column - Right container - holds body text*/
+#inner-wrapper {
+  margin-right: 35px;
+  padding-top: 1em;
+  width: 629px;
+  float: left;
+}
+
+#top { color: #595249; font-size: 60px; }
+
+.clearfix { clear: both; }
+
+
+
+
+/* ######### NAVIGATION ########## */
+/* =N */
+
+#stripe-wrapper {
+}
+
+#stripe {
+  background-color: #afb59b;
+  background-image: url('../images/bg5.jpg');
+  height: 100%;
+  padding-top: 26px;
+  float: left;
+  margin: 0px 35px;
+  text-align: center;
+  width: 265px;
+
+  zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#000000', Direction=135, Strength=1);
+  box-shadow: 0 0 7px black;
+}
+
+#stripe ul {
+	padding: 26px;
+	text-align: left;
+}
+
+#stripe a {
+	color: #2a1807;
+  display: block;
+  font-weight: normal;
+  font-family: Rosarivo, 'GungSeo', Arial, Sans-serif;
+  padding: .42em;
+  border-bottom: 1px dashed #e0d5c7;
+}
+#stripe a:hover {
+  background: rgba(255,255,255, .25);
+  border-radius: 2px;
+	color: #e95d3d;
+}
+
+
+
+/* ########### MAIN CONTENT ############## */
+/* =MC */
+
+/* Individual 'posts' */
+.section {
+  border-bottom: 1px dashed #d0c7bb;
+  padding:  30px 10px 109px;
+  position: relative;
+  text-align: justify;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.terminal {
+  background-color: black;
+  color: white;
+  font-family: 'Courier', arial, sans-serif;
+  font-size: 0.85em;
+  padding: 1em;
+}
+
+
+.contributors {
+  margin: 0 auto;
+  padding: 2em .5em;
+  width: 350px;
+}
+
+.contributors li {
+  display: inline-block;
+  font-size: 1em;
+  width: 48%;
+
+}
+
+
+
+
+/* ######### BULL Background Images ######## */
+
+#one {
+  background-image: url('../images/bulls/bull11.png');
+  background-position: 92% 120%;
+}
+
+
+#two {
+  background-image: url('../images/bulls/bull2.png');
+  background-position: 100% 95%;
+}
+
+#three {
+  background-image: url('../images/bulls/bull3.png');
+  background-position: 90% 87%;
+}
+
+#five { /* Actually number 4 on the page */
+  background-image: url('../images/bulls/bull5.png');
+  background-position: 100% 90%;
+}
+
+#seven {
+  background-image: url('../images/bulls/bull6.png');
+  background-position: 100% 60%;
+}
+
+#eight {
+  background-image: url('../images/bulls/bull7.png');
+  background-position: 100% 38%;
+}
+
+
+#nine {
+  background-image: url('../images/bulls/bull8.png');
+  background-position: 100% 68%;
+}
+
+.en {
+  display: none;
+}
