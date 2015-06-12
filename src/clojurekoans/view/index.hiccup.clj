@@ -1,6 +1,6 @@
 [:div#outer-wrapper
  [:div#stripe
-  [:img {:src "images/logo.png"}]
+  [:img {:src "images/logo_ko.png"}]
   [:ul
    [:li.ko
     [:a {:href "#"} "서론"]]
@@ -230,7 +230,9 @@
   [:div#ten.section.ko
    [:h1 "역자의 말"]
    [:p "이 사이트는 "
-    [:a {:href "http://hatemogi.com"} "김대현"] "이 한글로 번역했고, 원문 웹사이트는 "
+    [:a {:href "http://hatemogi.com"} "김대현"] "이 한국어로 번역했고, "
+    [:a {:href "https://pages.github.com"} "GitHub Pages"]
+    "로 호스팅되고 있습니다. 원문 웹사이트는 "
     [:a {:href "http://clojurekoans.com"} "http://clojurekoans.com"]
     "에서 보실 수 있습니다."]
    [:p "번역에 관한 문의나 제안은 "
