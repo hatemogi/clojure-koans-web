@@ -1,6 +1,7 @@
 [:div#outer-wrapper
  [:div#stripe
-  [:img {:src "images/logo_ko.png"}]
+  [:img.ko {:src "images/logo_ko.png"}]
+  [:img.en {:src "images/logo.png"}]
   [:ul
    [:li.ko
     [:a {:href "#"} "서론"]]
