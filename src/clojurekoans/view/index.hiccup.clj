@@ -172,7 +172,12 @@
 
    [:p.ko "첫번째 테스트를 통과하고 나면 그 다음 테스트가 실패하는 것을 알게 될 것입니다. 한 파일의 모든 테스트를 통과하고 나면, 자동으로 그 다음 파일의 선문답 과정이 시작됩니다."]
    [:p.en " After you run and pass your first test, you'll find that the next one is failing. After all the tests in a file are passing, the"
-    " run script will automatically begin testing the next file in the koans sequence."]]
+    " run script will automatically begin testing the next file in the koans sequence."]
+   [:h2.ko "데모"]
+   [:p.ko
+    [:script {:type "text/javascript" :src "https://asciinema.org/a/21413.js" :id "asciicast-21413" :async true}]
+    ]]
+
 
   [:div#seven.section
     [:h1.ko "테스트에 대해 한말씀"]
