@@ -88,7 +88,7 @@
 
    [:p.ko "여러분이 전문가답게 클로저를 쓰려한다면, "
     [:a {:href "http://leiningen.org"} "라이닝엔(Leiningen)"]
-    "이라는 클로저의 가장 유명한 의존성 관리 도구를 써서 선문답을 설치하도록 합니다. (이게 곧 클로저를 설치해 줍니다.)"
+    "이라는 가장 널리 쓰이는 클로저 의존성 관리 도구를 써서 선문답을 설치하도록 합니다. (이게 곧 클로저를 설치해 줍니다.)"
     " 라이닝엔의 특혜를 받기 위해 "
     [:a {:href "http://leiningen.org/#install"} "설치 방법"]
     "을 따르도록 합니다."]
@@ -100,8 +100,8 @@
     " for Leiningen bliss. "]
 
    [:p.ko "중요: 이미 lein 1.x가 설치돼 있다면 "
-    [:a {:href "https://github.com/technomancy/leiningen/wiki/Upgrading"} "라이닝엔 2로"]
-    "업그레이드 합니다."]
+    [:a {:href "https://github.com/technomancy/leiningen/wiki/Upgrading"} "라이닝엔 2로 업그레이드"]
+    " 합니다."]
    [:p.en "Important: if you already have lein 1.x installed, you'll need to "
     [:a {:href "https://github.com/technomancy/leiningen/wiki/Upgrading"} "upgrade to Leiningen 2"]
     "."]
@@ -110,7 +110,9 @@
    [:p.en "Once you have Leiningen installed, you just need to clone the koans repo:"]
    [:div.terminal.ko "$ git clone git://github.com/hatemogi/clojure-koans.git"]
    [:div.terminal.en "$ git clone git://github.com/functional-koans/clojure-koans.git"]
-
+   [:p.ko "만약 라이닝엔을 쓰기 싫다면, 선문답을 손수 설치할 수 있습니다. "
+    [:a {:href "http://github.com/hatemogi/clojure-koans/releases"} "여기 링크에서 최신 버전을 다운로드 받고 "]
+    "압축을 풀어서 시작하실 수 있습니다."]
    [:p.en "If you don't want to use Leiningen to manage dependencies for you, you
        can still easily install the koans manually. [Note: this option will only
        work until "
@@ -124,14 +126,14 @@
    [:h1.ko "첫번째 선문답"]
    [:h1.en "Run the First Koan"]
 
-   [:p.ko "선문답 디렉토리에서 아래 명령어를 입력해서 바로 시작할 수 있습니다."]
+   [:p.ko "앞서 설명한 라이닝엔이 설치돼 있다면"]
    [:p.en "Once you're inside the koans directory, you can immediately begin by running"]
    [:div.terminal "$ lein koan run"]
-   [:p.ko "앞서 설명드린 라이닝엔이 설치돼 있어야합니다."]
+   [:p.ko "위의 명령어로 바로 시작할 수 있습니다."]
    [:p.en "if you have Leiningen installed as described above."]
    [:p.ko "(저장소를 클론한 뒤 clojure-koans 디렉토리로 이동하는 것을 잊지 마세요!)"]
    [:p.en "(Don't forget to cd into the clojure-koans directory after you've cloned the repo!)"]
-   [:p.ko "또는, 라이닝엔을 안쓴다면, 아래처럼 씁니다"]
+   [:p.ko "또는, 라이닝엔을 안 쓴다면, 아래처럼 씁니다"]
    [:p.en "Or, if you're not using Leiningen, you can use"]
    [:div.terminal "$ script/run"]
    [:p.ko "맥이나 리눅스에서는 위 명령어를 실행하고,"]
