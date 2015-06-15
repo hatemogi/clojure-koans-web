@@ -143,7 +143,16 @@
    [:p.en "on Windows. "]
    [:p.ko "그러면 아래와 같은 에러 메시지를 보게 됩니다:"]
    [:p.en " instead. You'll probably see an error message like this:"]
-   [:div.terminal " Now meditate on ~/clojure-koans/src/koans/01_equalities.clj:3"
+   [:div.terminal.ko " Now meditate on ~/clojure-koans/src/koans/01_equalities.clj:6"
+    [:br]
+    "---------------------"
+    [:br]
+    "Assertion failed!"
+    [:br]
+    "같은지 확인해가며 현실을 시험해서 진실을 주의깊게 관찰하라"
+    [:br]
+    "(= __ true)"]
+   [:div.terminal.en " Now meditate on ~/clojure-koans/src/koans/01_equalities.clj:6"
     [:br]
     "---------------------"
     [:br]
@@ -152,7 +161,7 @@
     "We shall contemplate truth by testing reality, via equality."
     [:br]
     "(= __ true)"]
-   [:p.ko "위 내용은 01_equalities.clj 파일의 3째줄에서 테스트가 실패하고 있다는 뜻입니다. 그럼 그 파일을 텍스트 에디터에서 열어서, 밑줄친 빈칸을 채워서 테스트를 통과하도록 합시다!"]
+   [:p.ko "위 내용은 01_equalities.clj 파일의 6째줄에서 테스트가 실패하고 있다는 뜻입니다. 그럼 그 파일을 텍스트 에디터에서 열어서, 밑줄친 빈칸을 채워서 테스트를 통과하도록 합시다!"]
    [:p.en "The output is telling you that you have a failing test in the file
        01_equalities.clj, on line 3. So open that file up in a text editor and
        make it pass by filling in the blanks!"]]
