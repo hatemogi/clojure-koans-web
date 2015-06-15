@@ -161,7 +161,7 @@
     "We shall contemplate truth by testing reality, via equality."
     [:br]
     "(= __ true)"]
-   [:p.ko "위 내용은 01_equalities.clj 파일의 6째줄에서 테스트가 실패하고 있다는 뜻입니다. 그럼 그 파일을 텍스트 에디터에서 열어서, 밑줄친 빈칸을 채워서 테스트를 통과하도록 합시다!"]
+   [:p.ko "위 내용은 01_equalities.clj 파일의 6째줄에서 테스트가 실패하고 있다는 뜻입니다. 그럼 그 파일을 여러분이 즐겨 쓰는 텍스트 에디터로 열고, 밑줄 친 빈칸을 채워서 테스트를 통과하도록 합시다!"]
    [:p.en "The output is telling you that you have a failing test in the file
        01_equalities.clj, on line 3. So open that file up in a text editor and
        make it pass by filling in the blanks!"]]
